@@ -1,0 +1,5 @@
+<div class="container-fluid">
+    <div class="list-group">
+      <button class="list-group-item list-group-item-action" *ngFor="let productgroup of productGroups$ | async" (click)="selectGroup(productgroup)">{{productgroup.name}}</button>
+    </div>
+  </div>

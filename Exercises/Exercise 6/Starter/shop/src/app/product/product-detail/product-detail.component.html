@@ -1,0 +1,23 @@
+<section class="container">
+    <a [routerLink]="['../../', productGroup.id]">{{ productGroup.name }}</a>
+    <div *ngIf="product as product">
+      <h2>{{product.brand.name}} {{product.name}}</h2>
+      <img src="https://angular-training.azureedge.net/{{product.image}}" /> 
+    </div> 
+    <nav>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link" routerLink="general" routerLinkActive="active">General</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="prices" routerLinkActive="active">Prices</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="reviews" routerLinkActive="active">Reviews</a>
+            </li>
+        </ul>
+    </nav>
+    <router-outlet></router-outlet>
+  </section>
+  
+  

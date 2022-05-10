@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "W/vuuyWIJ9ZxXQSnW3VZNWPmp3mNjJCkzBJuCdsYTaJI4IQUgVnqVL57eItWJ6Ha+kdDJNAngwrZwCBRT7YfXA==",
+  "success": true,
+  "projectFilePath": "D:\\Angular\\DataLayer\\DataLayer.Repository.Memory\\DataLayer.Repository.Memory.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Developer\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

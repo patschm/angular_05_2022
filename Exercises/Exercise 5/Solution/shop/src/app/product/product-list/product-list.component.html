@@ -1,0 +1,13 @@
+<h2>{{productGroup?.name}}</h2>
+<ul>
+    <li *ngFor="let p of products$ | async">
+      <!-- TODO: 9
+        Examine this routerLink. We defined a productDetail under product/id
+        However the path will be whatever/product/id 
+        Change /product to ../product 
+      -->
+        <a [routerLink]="['../product', p.id]">{{p.brand.name}} {{p.name}} </a>
+    </li>
+</ul>
+
+

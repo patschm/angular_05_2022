@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="row align-items-start">
+        <div class="col" *ngFor="let productgroup of productGroups">
+            <a class="btn btn-outline-secondary" role="button">
+                <figure>
+                    <img src="https://angular-training.azureedge.net/{{productgroup.image}}" class="img-rounded" [alt]="productgroup.name" />
+                    <figcaption>{{productgroup.name}}</figcaption>
+                </figure>
+            </a>
+        </div>
+    </div>
+  </div>

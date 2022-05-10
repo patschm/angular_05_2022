@@ -1,0 +1,33 @@
+<div class="container">
+    <div [hidden]="submitted">
+        <h3>Your Review</h3>
+        <form (ngSubmit)="onSubmit()" [formGroup]="reviewForm">
+            <div class="form-group">
+                <label for="score">Your score</label>
+                <input class="form-control" type="number" name="score" formControlName="score" />
+                <div [hidden]="!reviewForm.controls.score.dirty || !reviewForm.controls.score.errors?.required">
+                    You have to specify a score
+                </div>
+                <div [hidden]="!reviewForm.controls.score.dirty || !(reviewForm.controls.score.errors?.min || reviewForm.controls.score.errors?.max)">
+                  Score too high or too low
+              </div>
+            </div>
+            <div class="form-group">
+                <label for="author">Your name</label>
+                <input type="text" class="form-control" name="author" formControlName="author" />
+                <div [hidden]="!reviewForm.controls.author.dirty || !reviewForm.controls.author.errors?.required">
+                    You have to specify your name
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="text">Your review</label>
+                <textarea type="text" class="form-control" name="text" rows="8" formControlName="text" ></textarea>
+                <div [hidden]="!reviewForm.controls.text.dirty || !reviewForm.controls.text.errors?.required">
+                    Please enter a review
+                </div>
+            </div>
+            <button type="submit" class="btn btn-success" [disabled]="!reviewForm.valid">Submit</button>
+        </form>
+    </div>
+  </div>
+  
