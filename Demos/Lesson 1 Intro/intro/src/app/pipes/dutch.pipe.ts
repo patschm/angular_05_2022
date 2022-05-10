@@ -5,9 +5,9 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class DutchPipe implements PipeTransform {
 
-  transform(value: any, args?: any): any 
+  transform(value: number, args?: any, arg2?:any): string 
   {
-    return ("" + value).replace(/[,]/gi, '').replace(/[.]/gi, ',');
+    return (arg2 + value).replace(/[,]/gi, '').replace(/[.]/gi, args);
   }
 
 }

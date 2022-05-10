@@ -24,9 +24,16 @@ export class ReactiveComponent implements OnInit
   private buildForm(): void
   {
     this.theForm = this.bld.group({
-      name:[this.name, Validators.required],
-      age:[this.age, [Validators.min(18), Validators.max(123)]]
+      "name":["", Validators.required],
+      "age":[0, [Validators.min(18), Validators.max(123)]]
     });
+  }
+  public get user() : any
+  {
+    return {
+      name: this.theForm.get("name"),
+      age : this.theForm.get("age")
+    };
   }
   constructor(private bld:FormBuilder)
   {

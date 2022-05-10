@@ -11,6 +11,7 @@ export class BindingComponent implements OnInit
   public hidden:boolean = false;
   public type:string="checkbox";
   public color:string="blue";
+  public bla: any= {naam:"Ha"}
 
   public toggle()
   {

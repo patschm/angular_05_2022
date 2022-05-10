@@ -1,6 +1,6 @@
 
 <h1>{{ name }}</h1>
-<input type="text" value="{{name}}" /><span>One-way</span>
+<input type="text" value="{{name == 'Sven'? name:'iemand'}}" /><span>One-way</span>
 <br/>
 <input type="text" [value]="name" /><span>One-way</span>
 <br/>
