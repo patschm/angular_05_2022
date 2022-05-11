@@ -7,7 +7,23 @@ import { Product, ProductGroup } from 'src/app/entities/entities';
 @Component({
   selector: 'app-product-list',
   template: `
-    <h2>{{productGroup?.name}}</h2>
+    
+    <div class="container">
+      <div class="row">
+        <h2>{{productGroup?.name}}</h2>
+        <div class="col-md-4" *ngFor="let p of products$ | async">
+            <a class="card mb-4 box-shadow" role="button">
+                    <img [src]="'https://angular-training.azureedge.net/' + p.image"  
+                    [alt]="p.brand.name + ' ' + p.name" class="mx-auto card-img-top" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">{{p.brand.name + ' ' + p.name}}</h5>
+                        <a [routerLink]="['/products', p.id ]" class="btn btn-primary">Details</a>
+                    </div>
+            </a>
+        </div>
+    </div>
+  </div>
+
 <ul>
     <li *ngFor="let p of products$ | async">
         <a>{{p.brand.name}} {{p.name}} </a>
@@ -34,9 +50,9 @@ export class ProductListComponent implements OnInit {
   ngOnInit(): void {
     this.products$ = this.ar.params
       .pipe(
-        exhaustMap((pars:any)=>this.getGroup(pars.pgid)),
+        switchMap((pars:any)=>this.getGroup(pars.pgid)),
         tap(pg=>this.productGroup = pg),
-        exhaustMap((pg:any)=>this.getProducts(pg.id))
+        switchMap((pg:any)=>this.getProducts(pg.id))
         );
   }
 
