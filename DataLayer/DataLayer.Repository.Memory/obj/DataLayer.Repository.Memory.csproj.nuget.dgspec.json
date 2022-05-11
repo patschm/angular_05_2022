@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Angular\\DataLayer\\DataLayer.Repository.Memory\\DataLayer.Repository.Memory.csproj": {}
+    "D:\\angular_05_2022\\DataLayer\\DataLayer.Repository.Memory\\DataLayer.Repository.Memory.csproj": {}
   },
   "projects": {
-    "D:\\Angular\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj": {
+    "D:\\angular_05_2022\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Angular\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj",
+        "projectUniqueName": "D:\\angular_05_2022\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj",
         "projectName": "DataLayer.Interfaces",
-        "projectPath": "D:\\Angular\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj",
-        "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
-        "outputPath": "D:\\Angular\\DataLayer\\DataLayer.Interfaces\\obj\\",
+        "projectPath": "D:\\angular_05_2022\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\Patrick\\.nuget\\packages\\",
+        "outputPath": "D:\\angular_05_2022\\DataLayer\\DataLayer.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Patrick\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -59,25 +58,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Angular\\DataLayer\\DataLayer.Repository.Memory\\DataLayer.Repository.Memory.csproj": {
+    "D:\\angular_05_2022\\DataLayer\\DataLayer.Repository.Memory\\DataLayer.Repository.Memory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Angular\\DataLayer\\DataLayer.Repository.Memory\\DataLayer.Repository.Memory.csproj",
+        "projectUniqueName": "D:\\angular_05_2022\\DataLayer\\DataLayer.Repository.Memory\\DataLayer.Repository.Memory.csproj",
         "projectName": "DataLayer.Repository.Memory",
-        "projectPath": "D:\\Angular\\DataLayer\\DataLayer.Repository.Memory\\DataLayer.Repository.Memory.csproj",
-        "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
-        "outputPath": "D:\\Angular\\DataLayer\\DataLayer.Repository.Memory\\obj\\",
+        "projectPath": "D:\\angular_05_2022\\DataLayer\\DataLayer.Repository.Memory\\DataLayer.Repository.Memory.csproj",
+        "packagesPath": "C:\\Users\\Patrick\\.nuget\\packages\\",
+        "outputPath": "D:\\angular_05_2022\\DataLayer\\DataLayer.Repository.Memory\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Patrick\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -92,8 +90,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Angular\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj": {
-                "projectPath": "D:\\Angular\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj"
+              "D:\\angular_05_2022\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj": {
+                "projectPath": "D:\\angular_05_2022\\DataLayer\\DataLayer.Interfaces\\DataLayer.Interfaces.csproj"
               }
             }
           }
@@ -131,7 +129,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

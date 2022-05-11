@@ -22,3 +22,16 @@ D:\Angular\DataLayer\DataLayer.Repository.Memory\obj\Debug\netcoreapp3.1\DataLay
 D:\Angular\DataLayer\DataLayer.Repository.Memory\obj\Debug\netcoreapp3.1\DataLayer.Repository.Memory.csproj.CopyComplete
 D:\Angular\DataLayer\DataLayer.Repository.Memory\obj\Debug\netcoreapp3.1\DataLayer.Repository.Memory.dll
 D:\Angular\DataLayer\DataLayer.Repository.Memory\obj\Debug\netcoreapp3.1\DataLayer.Repository.Memory.pdb
+D:\angular_05_2022\DataLayer\DataLayer.Repository.Memory\bin\Debug\netcoreapp3.1\DataLayer.Repository.Memory.deps.json
+D:\angular_05_2022\DataLayer\DataLayer.Repository.Memory\bin\Debug\netcoreapp3.1\DataLayer.Repository.Memory.dll
+D:\angular_05_2022\DataLayer\DataLayer.Repository.Memory\bin\Debug\netcoreapp3.1\DataLayer.Repository.Memory.pdb
+D:\angular_05_2022\DataLayer\DataLayer.Repository.Memory\bin\Debug\netcoreapp3.1\DataLayer.Interfaces.dll
+D:\angular_05_2022\DataLayer\DataLayer.Repository.Memory\bin\Debug\netcoreapp3.1\DataLayer.Interfaces.pdb
+D:\angular_05_2022\DataLayer\DataLayer.Repository.Memory\obj\Debug\netcoreapp3.1\DataLayer.Repository.Memory.csproj.AssemblyReference.cache
+D:\angular_05_2022\DataLayer\DataLayer.Repository.Memory\obj\Debug\netcoreapp3.1\DataLayer.Repository.Memory.GeneratedMSBuildEditorConfig.editorconfig
+D:\angular_05_2022\DataLayer\DataLayer.Repository.Memory\obj\Debug\netcoreapp3.1\DataLayer.Repository.Memory.AssemblyInfoInputs.cache
+D:\angular_05_2022\DataLayer\DataLayer.Repository.Memory\obj\Debug\netcoreapp3.1\DataLayer.Repository.Memory.AssemblyInfo.cs
+D:\angular_05_2022\DataLayer\DataLayer.Repository.Memory\obj\Debug\netcoreapp3.1\DataLayer.Repository.Memory.csproj.CoreCompileInputs.cache
+D:\angular_05_2022\DataLayer\DataLayer.Repository.Memory\obj\Debug\netcoreapp3.1\DataLayer.Repository.Memory.csproj.CopyComplete
+D:\angular_05_2022\DataLayer\DataLayer.Repository.Memory\obj\Debug\netcoreapp3.1\DataLayer.Repository.Memory.dll
+D:\angular_05_2022\DataLayer\DataLayer.Repository.Memory\obj\Debug\netcoreapp3.1\DataLayer.Repository.Memory.pdb
