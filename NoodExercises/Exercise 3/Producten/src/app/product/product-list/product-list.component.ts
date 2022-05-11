@@ -48,12 +48,21 @@ export class ProductListComponent implements OnInit {
     return this.client.get<Product[]>("https://localhost:5001/products/all/"+pgid);
   }
   ngOnInit(): void {
+    // this.products$ = this.ar.params
+    //   .pipe(
+    //     switchMap((pars:any)=>this.getGroup(pars.pgid)
+    //       .pipe(
+    //         tap(pg=>this.productGroup = pg),
+    //         switchMap((pg:any)=>this.getProducts(pg.id))
+    //       )
+    //     )
+    //   );
+
     this.products$ = this.ar.params
-      .pipe(
-        switchMap((pars:any)=>this.getGroup(pars.pgid)),
-        tap(pg=>this.productGroup = pg),
-        switchMap((pg:any)=>this.getProducts(pg.id))
+        .pipe(
+          switchMap((pars:any)=>this.getGroup(pars.pgid)),
+          tap(pg=>this.productGroup = pg),
+          switchMap((pg:any)=>this.getProducts(pg.id))
         );
   }
-
 }

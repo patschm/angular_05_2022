@@ -7,17 +7,17 @@ import { ProductGroup } from 'src/app/entities/entities';
   selector: 'app-product-group-list',
   template: `
     <div class="container">
-    <div class="row">
+      <div class="row">
         <div class="col-md-4" *ngFor="let productgroup of productGroups$ | async">
-            <a class="card mb-4 box-shadow" role="button">
-                    <img [src]="'https://angular-training.azureedge.net/' + productgroup.image"  
-                    [alt]="productgroup.name" class="mx-auto card-img-top" />
-                    <div class="card-body text-center">
-                        <h5 class="card-title">{{productgroup.name}}</h5>
-                        <a [routerLink]="['/products', productgroup.id ]" class="btn btn-primary">Products</a>
-                    </div>
-            </a>
-        </div>
+          <a class="card mb-4 box-shadow" role="button">
+            <img [src]="'https://angular-training.azureedge.net/' + productgroup.image"  
+                  [alt]="productgroup.name" class="mx-auto card-img-top" />
+            <div class="card-body text-center">
+              <h5 class="card-title">{{productgroup.name}}</h5>
+              <a [routerLink]="['/products', productgroup.id ]" class="btn btn-primary">Products</a>
+            </div>
+          </a>
+      </div>
     </div>
   </div>
   `,
